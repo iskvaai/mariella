@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 body{
     margin: 0;
     padding:0 ;
@@ -42,113 +43,202 @@ li{
     padding-bottom: 40px;
     padding-top: 50px;
 }
-.mari1{
-    width: 58px;
-    height: 30px;
-}
-.mari2{
-    width: 95px;
-    height: 30px;
-}
-.mari3{
-    width: 84px;
-    height: 30px;
-}
-.mari4{
-    width: 110px;
-    height: 30px;
-}
-.mari5{
-    width: 22px;
-    height: 20px;
-}
-
-
-#icon {
-    width: 22px;
-    height: 20px;
-}
-.block1{
-
-    position: relative;
-}
-
-.block2{
+.content_1{
     height: 458px;
-    background: rgba(201, 173, 198, 1);
+    background: #C9ADC6;
 }
-.block3{
-    background-color: rgba(214, 187, 211, 1);
+
+.content_2{
     height: 359px;
+    background: #D6BBD3;
 }
-.photo1{
+
+.poduwka{
     position: absolute;
-    left: 10%;
-    top: 9%;
+    top: 194px;
+    left: 227px;
 }
-.photo2 {
+
+.rectangle{
     position: absolute;
-    top: 27%;
-    left: 60%;
+    top: 303px;
+    left: 950px;
 }
-/**/
-.text1{
-    text-align: center;
-    padding-top: 75px;
+
+.spring{
+    position: absolute;
+    left: 990px;
+    top: 433px;
+}
+.new, .buy{
     font-family: 'Roboto';
-    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 30px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: rgba(185, 155, 182, 1);
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    margin-top: 0;
 
 }
-.text2{
+
+.buy{
+    margin-top: 22px;
+    border: none ;
+    background: #B08EAD;
+    border-bottom: solid ;
+}
+
+.cushion, .collection{
     font-family: 'Cormorant Garamond';
-    font-size: 26px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 38px;
-    text-align: center;
-    width: 747px;
-    height: 76px;
-    padding-top: 13px;
-    margin-right: 35%;
-    margin-left: 34%;
-    color: rgba(95, 77, 93, 1);
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 0;
 }
-button{
-    background: white;
-    height: 45px;
-    width: 141px;
-    border-radius: 25px;
-    box-sizing: border-box;
-    border: 1px solid #B99BB6;
-    margin-top:-2% ;
-    margin-left:47% ;
+
+.container2{
+    height: 306px;
+    text-align: center;
 
 }
-.text3{
 
-    font-family: 'Roboto';
+.designer{
+    font-family: Roboto;
     font-style: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #B99BB6;
-   padding: 16px 29px 14px 29px;
+    margin-top: 75px;
 }
-/**/
-.footer_block{
-    width: 1440px;
-    align-items: center;
-    background: rgba(214, 187, 211, 1);
-    height: 235px;
+
+.California{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    color: #5F4D5D;
+    margin: 0;
 }
-.footer_block1{
-    background: rgba(201, 173, 198, 1);
-    height: 137px;
+
+.learn_more{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    height: 45px;
+    width: 141px;
+    background-color: white;
+    margin-top: 17px;
+    margin-bottom: 50px;
 }
+
+.girl{
+    margin-right: 37px;
+    margin-bottom: 0;
+}
+
+.podu{
+    margin-right: 37px;
+}
+
+.content_4{
+    display: flex;
+    position: relative;
+}
+.first, .second, .third{
+    width: 368px;
+    height: 113px;
+    background: #CEB3CB;
+}
+
+.first{
+    position: absolute;
+    top: 240px;
+    left: 127px;
+}
+
+.second{
+    position: absolute;
+    top: 240px;
+    left: 536px;
+}
+
+.third{
+    position: absolute;
+    top: 240px;
+    left: 945px;
+}
+
+.me{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 23px 0 6px 23px;
+}
+
+.more{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 23px;
+}
+
+.container3{
+    display: flex;
+    margin-top: 415px;
+    margin-left: 114px;
+}
+
+.content_5{
+    width: 607px;
+    height: 457px;
+    padding-left: 41px;
+    padding-top: 110px;
+}
+
+.begin{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.credibly, .dramatically{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+
+}
+
