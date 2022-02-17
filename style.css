@@ -31,7 +31,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 li{
@@ -43,32 +43,33 @@ li{
     padding-bottom: 40px;
     padding-top: 50px;
 }
-.content_1{
+.box1{
+    position: relative;
     height: 458px;
     background: #C9ADC6;
 }
 
-.content_2{
+.box2{
     height: 359px;
     background: #D6BBD3;
 }
 
-.poduwka{
+.nalojenie1{
     position: absolute;
-    top: 194px;
+    top: 77px;
     left: 227px;
 }
 
-.rectangle{
+.nalojenie2{
     position: absolute;
-    top: 303px;
-    left: 950px;
+   top: 42%;
+    left: 66%;
 }
 
 .spring{
     position: absolute;
-    left: 990px;
-    top: 433px;
+        left: 70%;
+    top: 69%;
 }
 .new, .buy{
     font-family: 'Roboto';
@@ -147,16 +148,16 @@ li{
     margin-bottom: 50px;
 }
 
-.girl{
+.foto1{
     margin-right: 37px;
     margin-bottom: 0;
 }
 
-.podu{
+.foto2{
     margin-right: 37px;
 }
 
-.content_4{
+.box4{
     display: flex;
     position: relative;
 }
@@ -212,11 +213,10 @@ li{
     margin-left: 114px;
 }
 
-.content_5{
-    width: 607px;
-    height: 457px;
-    padding-left: 41px;
-    padding-top: 110px;
+.box5{
+   
+  padding-left: 41px;
+    padding-top: 74px;
 }
 
 .begin{
@@ -241,4 +241,205 @@ li{
     color: #5F4D5D;
 
 }
+hr{
+    width: 1215px;
+}
+.container4{
+    display: flex;
 
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.box7_photo{
+        margin: 25px 134px;
+}
+.box6_photo{
+        margin: 7px 80px;
+}
+.box9{
+         padding: 65px 139px;
+      width: 486px;
+      height: 250px;
+}
+.box8{
+    width: 607px;
+    height: 457px;
+   padding-left: 0;
+    padding-top: 106px;
+}
+.carrer{
+   font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: rgba(185, 155, 182, 1);
+    text-transform: uppercase;
+
+}
+.collab, .object, .and{
+   font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.learn_more2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    height: 45px;
+    width: 141px;
+    background-color: white;
+    margin-top: 17px;
+    margin-bottom: 50px;
+}
+
+.container5{
+    display: flex;
+
+}
+.box10{
+        margin: 16px -70px;
+        width: 608px;
+        height: 417px;
+}
+.box10_photo{
+    padding: 9px 25px;
+}
+.products{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: rgba(185, 155, 182, 1);
+    text-transform: uppercase;
+
+}
+ .seamlessly, .innovate, .energi{
+
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+
+}
+
+.container6{
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    margin-top: 91px;
+    margin-left: 112px;
+}
+.container7{
+    align-items: center;
+    display: flex;
+     gap: 26px;
+     /*margin-bottom: 76px;*/
+     margin-left: 112px;
+}
+.center_text{
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5F4D5D;
+    padding-top: 9px;
+    margin: -5px 0px -17px;
+
+}
+.center_text2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(176, 176, 176, 1);
+    padding-bottom: 76px;
+}
+footer{
+    position: relative;
+    height: 335px;
+    left: 0%;
+    right: 0%;
+    top: 0;
+     background: #C9ADC6;
+   
+
+}
+.footer_block{
+     position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0;
+      height: 235px;
+     background: #D6BBD3;
+    border-radius: 0;
+
+}
+.icons_footer{
+    padding-top: 46px;
+    gap: 240px;
+    display: flex;
+        padding-left: 20%;
+    
+}
+
+.icons1{
+    /*padding-left: 317px;*/
+}
+.footer_text{
+    font-family: Cormorant Garamond;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+
+   /* text-align: center;*/
+    color: rgba(255, 255, 255, 1);
+
+}
+.footer_text1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  
+   /* text-align: center;*/
+    color: rgba(255, 255, 255, 1);
+
+}
+.m1{
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.f1{
+  margin : 3px 0 15px -17px;
+}
+.mr1{
+       margin: 14px 44px 24px 31%;
+}
